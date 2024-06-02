@@ -197,6 +197,54 @@
         }
       }
     },
+    "graphviz@10.0.1": {
+      "last_modified": "2024-05-22T06:18:38Z",
+      "resolved": "github:NixOS/nixpkgs/3f316d2a50699a78afe5e77ca486ad553169061e#graphviz",
+      "source": "devbox-search",
+      "version": "10.0.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9hvgz1x3cxn6mma1a64p8a15bm20vldq-graphviz-10.0.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/9hvgz1x3cxn6mma1a64p8a15bm20vldq-graphviz-10.0.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0ml4p56x7ssymf9l6rmm0dyvdl83qnjr-graphviz-10.0.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/0ml4p56x7ssymf9l6rmm0dyvdl83qnjr-graphviz-10.0.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/id9yj4knzayfc53gal7mxzawdrf70qjl-graphviz-10.0.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/id9yj4knzayfc53gal7mxzawdrf70qjl-graphviz-10.0.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3x986i6c36mhl68bcvah99wm8lz8rrx5-graphviz-10.0.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/3x986i6c36mhl68bcvah99wm8lz8rrx5-graphviz-10.0.1"
+        }
+      }
+    },
     "pipx@1.4.3": {
       "last_modified": "2024-05-22T06:18:38Z",
       "resolved": "github:NixOS/nixpkgs/3f316d2a50699a78afe5e77ca486ad553169061e#pipx",

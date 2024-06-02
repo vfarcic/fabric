@@ -2,9 +2,11 @@ project: dot
 providers:
   google_secretmanager:
     env:
-      OPENAI_API_KEY:
+      AZURE_OPENAI_API_KEY:
         path: projects/vfarcic/secrets/azure-openai-key/versions/1
-      OPENAI_BASE_URL:
+      AZURE_OPENAI_ENDPOINT:
         path: projects/vfarcic/secrets/azure-openai-base-url/versions/1
-      DEFAULT_MODEL:
+      AZURE_OPENAI_MODEL:
         path: projects/vfarcic/secrets/azure-openai-model/versions/1
+      YOUTUBE_API_KEY:
+        path: projects/vfarcic/secrets/youtube-api-key/versions/1
